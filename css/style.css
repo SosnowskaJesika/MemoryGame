@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* body {
+  background-color: lightgrey;
+}
+
+* body .game-board {
+  height: 80vh;
+  width: 80vh;
+  background-color: lightgrey;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+* body .game-board__block {
+  margin: 3px;
+  -ms-flex-preferred-size: 19vh;
+      flex-basis: 19vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+}
+
+* body .game-board__block:hover {
+  background-color: rgba(147, 112, 219, 0.1);
+}
+
+* body .game-board .red {
+  background-color: red;
+}
+
+* body .game-board .blue {
+  background-color: blue;
+}
+
+* body .game-board .green {
+  background-color: green;
+}
+
+* body .game-board .black {
+  background-color: black;
+}
+
+* body .game-board .white {
+  background-color: white;
+}
+
+* body .game-board .yellow {
+  background-color: yellow;
+}
+
+* body .game-board .orange {
+  background-color: orange;
+}
+
+* body .game-board .pink {
+  background-color: pink;
+}
+
+* body .game-board .hidden {
+  background-color: grey;
+}
+
+* body .game-board .off {
+  background-color: silver;
+  cursor: default;
+}
+/*# sourceMappingURL=style.css.map */
